@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Andrey</item>
+        <item>Alexander</item>
+        <item>Boris</item>
+        <item>Victor</item>
+        <item>Gregory</item>
+        <item>Gleb</item>
+        <item>Dmitry</item>
+        <item>Egor</item>
+        <item>Elise</item>
+        <item>Ignatius</item>
+        <item>Konstantin</item>
+        <item>Leonid</item>
+        <item>Mikhail</item>
+        <item>Nicholas</item>
+        <item>Oleg</item>
+        <item>Roman</item>
+        <item>Sergei</item>
+        <item>Stepan</item>
+        <item>Timofei</item>
+    </string-array>
+    <string-array name="lastnames">
+        <item>Andreev</item>
+        <item>Alexandrov</item>
+        <item>Borisyuk</item>
+        <item>Viktorchik</item>
+        <item>Grigorenko</item>
+        <item>Dmitriev</item>
+        <item>Egoriev</item>
+        <item>Ivanov</item>
+        <item>Ivanchey</item>
+        <item>Konstantinov</item>
+        <item>Mikhalkov</item>
+        <item>Nikolaev</item>
+        <item>Ostrovsky</item>
+        <item>Orkin</item>
+        <item>Petrov</item>
+        <item>Profiev</item>
+        <item>Christmas</item>
+        <item>Spiridonov</item>
+        <item>Tretyak</item>
+        <item>Stepanchuk</item>
+    </string-array>
+</resources>

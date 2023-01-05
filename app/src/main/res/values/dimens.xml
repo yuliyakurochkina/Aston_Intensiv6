@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_height">0dp</dimen>
+    <dimen name="default_margin">3dp</dimen>
+    <dimen name="default_padding">2dp</dimen>
+    <dimen name="start_end_padding">2dp</dimen>
+    <dimen name="text_size_for_et">14sp</dimen>
+    <dimen name="text_size_for_tv">12sp</dimen>
+</resources>

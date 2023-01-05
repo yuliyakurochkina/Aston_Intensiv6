@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_peach"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/userPicBig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4"
+        android:paddingStart="@dimen/start_end_padding"
+        android:paddingEnd="@dimen/start_end_padding"
+        android:contentDescription="@string/contact_image"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:paddingStart="@dimen/start_end_padding"
+        android:paddingEnd="@dimen/start_end_padding"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_for_tv"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1.5"
+        android:autofillHints="name"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="@string/hint_edittext_name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_for_et"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:paddingStart="@dimen/start_end_padding"
+        android:paddingEnd="@dimen/start_end_padding"
+        android:text="@string/lastname"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_for_tv"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1.5"
+        android:autofillHints="name"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="@string/hint_edittext_lastname"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_for_et"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:paddingStart="@dimen/start_end_padding"
+        android:paddingEnd="@dimen/start_end_padding"
+        android:text="@string/number"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_for_tv"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1.5"
+        android:autofillHints="phone"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="@string/hint_edittext_number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_for_et"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1.5"
+        android:backgroundTint="@color/light_green"
+        android:text="@string/btn_confirm"
+        android:textSize="@dimen/text_size_for_et"
+        android:textStyle="bold" />
+</LinearLayout>
